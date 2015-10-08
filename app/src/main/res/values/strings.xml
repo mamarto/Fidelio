@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Fidelio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_edit_friends">Edit friends</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="signup_error_message">Please make sure you enter a username, password, and email address!</string>
+    <string name="signup_error_title">Oops</string>
+    <string name="login_error_message">Please make sure you to enter a username and password!</string>
+    <string name="menu_logout_label">logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+
+
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
+    <string name="empty_inbox_label">No new messages!</string>
+    <string name="empty_friends_label">Add friends to begin!</string>
+    <string name="title_activity_edit_friends">Edit Friends</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_title">We\'re sorry!</string>
+    <string name="menu_camera_label">Camera</string>
+    <string name="error_external_storage">There was a problem accessing your device\'s external storage.</string>
+    <string name="general_error">Sorry, there was an error!</string>
+    <string name="video_file_size_warning">The selected video must be less than 10 Mb.</string>
+    <string name="error_opening_file">There was a problem with the selected file.</string>
+    <string name="error_file_size_too_large">The selected file is too large! Select a new file.</string>
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Picture</item>
+        <item>Choose Video</item>
+    </string-array>
+    <string name="title_activity_recipients">Choose Recipients</string>
+    <string name="empty_recipients_list_message">Choose some friends first!</string>
+    <string name="send_button">Send</string>
+    <string name="error_selecting_file">There was an error with the file selected. Please select a different file.</string>
+    <string name="error_selecting_file_title">We\'re sorry!</string>
+    <string name="success_message">Message sent!</string>
+    <string name="error_sending_message">There was an error sending your message. Please try again.</string>
+    <string name="menu_message_label">menu_message</string>
+    <string name="title_activity_send_message">Send Message</string>
+    <string name="title_activity_message_recipients">MessageRecipientsActivity</string>
+    <string name="title_activity_view_image">Chattit</string>
+    <string name="subtitle">Funniest messaging app in the world!</string>
+    <string name="sign_up_text">Don\'t have an account? Sign up!</string>
+    <string name="login_button_label">SIGN IN</string>
+    <string name="email_field">email</string>
+    <string name="password_field">password</string>
+    <string name="username_field">username</string>
+    <string name="sign_up_field">SIGN UP</string>
+    <string name="cancel_button_label">CANCEL</string>
+    <string name="push_message">You have a new Chattit message from %s!</string>
+</resources>

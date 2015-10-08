@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/AuthBackground"
+                tools:context="com.example.manfredi.riddit.LoginActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        style="@style/AuthBackgroundImage" />
+
+    <TextView
+        android:text="@string/app_name"
+        android:id="@+id/title"
+        style="@style/AuthTitle" />
+
+    <TextView
+        android:text="@string/subtitle"
+        android:id="@+id/subtitle"
+        style="@style/AuthTitle.AuthSubTitle" />
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        style="@style/AuthFieldContainer">
+
+        <EditText
+            android:id="@+id/usernameField"
+            style="@style/AuthEditText"
+            android:textColor="@color/background_purple"
+            android:hint="@string/username_field" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            style="@style/AuthEditText"
+            android:inputType="textPassword"
+            android:textColor="@color/background_purple"
+            android:id="@+id/passwordField"
+            android:hint="@string/password_field" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/login_button_label"
+        android:id="@+id/loginButton"
+        android:layout_below="@+id/editTextLayout"
+        android:layout_alignLeft="@+id/backgroundImage"
+        style="@style/AuthButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_text"
+        android:id="@+id/signupText"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginProgressBar"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

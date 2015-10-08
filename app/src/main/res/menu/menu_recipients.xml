@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.appnext.fidelio.ui.RecipientsActivity">
+
+    <item
+          android:id="@+id/action_send"
+          android:title="@string/send_button"
+          android:orderInCategory="100"
+          android:showAsAction="always"
+          android:icon="@drawable/ic_menu_send"
+          android:visible="false" />
+
+</menu>
